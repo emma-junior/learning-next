@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar";
-import styles from "../styles/Home.module.css";
+import Navbar from "../../components/Navbar";
+import styles from "../../styles/Home.module.css";
 
-export default function Home() {
+const admin = () => {
   return (
     <div>
       <Navbar />
       <div className={styles.container}>
-        <h1 className={styles.title}>Home Page</h1>
+        <h1 className={styles.title}>Contact Admin</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -21,4 +21,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default admin;
